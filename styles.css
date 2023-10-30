@@ -1,1 +1,43 @@
-/*  your css code here. If applicable */
+/* Reset some default styles for the page */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+/* Style the container */
+.container {
+  text-align: center;
+  background-color: #fff;
+  border: 2px solid #333;
+  border-radius: 40px;
+  padding: 40px; /* Adjust as needed */
+  white-space: nowrap; /* Prevent line breaks */
+  font-size: 0; /* Remove any whitespace between inline elements */
+}
+
+/* Style the colored blocks */
+.red, .green, .yellow {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: inline-block;
+	margin: 0 4px;
+}
+
+.green {
+  background-color: yellow;
+}
+
+.yellow {
+  background-color: red;
+}
+
+.red {
+  background-color: green;
+}
+
